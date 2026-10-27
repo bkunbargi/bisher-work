@@ -3,5 +3,5 @@
 Static site on GitHub Pages. No build step: edit the HTML and push to `main`.
 
 - `book/index.html` is what the flyer's QR code opens, so its URL must not change.
-  When online booking exists, add a "Pick a time" button linking to it (link out, don't redirect).
+  "Pick a time" buttons link out to Calendly (book/index.html once, index.html twice).
 - DNS (GoDaddy): `@` A → 185.199.108.153, .109, .110, .111 (GitHub Pages); `www` CNAME → `bkunbargi.github.io`. Orbit lives at `orbit.bisher.work` (CNAME → `bisher-orbit.fly.dev`).
