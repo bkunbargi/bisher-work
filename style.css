@@ -8,13 +8,7 @@
   --accent: #1d5a63; --on-accent: #ffffff; --tint: #eef5f5; --rule: #dde3e5;
   --serif: "Source Serif 4", "Iowan Old Style", Georgia, serif;
   --sans: "Inter", -apple-system, "Helvetica Neue", Arial, sans-serif;
-  color-scheme: light dark;
-}
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #111518; --surface: #171c20; --ink: #eef2f3; --body: #c9d1d6; --muted: #98a3ab;
-    --accent: #74b6be; --on-accent: #0b1d20; --tint: #16262a; --rule: #2a3439;
-  }
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
