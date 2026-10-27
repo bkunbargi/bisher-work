@@ -3,17 +3,23 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="only light">
 <title>Book a free 20-minute consultation · Bisher Kunbargi</title>
-<meta name="description" content="Book a free, no-obligation 20-minute workflow consultation with Bisher Kunbargi.">
+<meta name="description" content="Book a free, no-obligation 20-minute workflow consultation with Bisher Kunbargi, a software engineer in Mission Viejo.">
+<link rel="canonical" href="https://bisher.work/book/">
+<meta property="og:site_name" content="Bisher Kunbargi">
+<meta property="og:title" content="Book a free 20-minute workflow consultation">
+<meta property="og:description" content="No cost, no obligation. In person, by phone, or video.">
+<meta property="og:url" content="https://bisher.work/book/">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://bisher.work/og.png">
+<meta name="twitter:card" content="summary_large_image">
 <!--
   The QR code on the printed flyer opens this page, so its URL must never change.
-  To switch to online booking, paste the Calendly (or Cal.com) link below and push:
-  visitors are then forwarded straight to it. Leave it empty to show call/text/email.
+  When online booking exists, add a "Pick a time" button (class="btn") above the
+  contact rows that links to the Calendly/Cal.com page. Link out; don't redirect,
+  so this page (and the call/text fallback) stays one Back tap away.
 -->
-<script>
-  const BOOKING_URL = "";
-  if (BOOKING_URL) location.replace(BOOKING_URL);
-</script>
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="/style.css">
 </head>
@@ -24,31 +30,35 @@
 </div></header>
 
 <main class="wrap">
-  <section>
-    <div class="label">No cost, no obligation</div>
+  <section class="hero">
+    <div class="eyebrow">Free · 20 minutes · No obligation</div>
     <h1>Book your free <span style="white-space:nowrap">20-minute</span> workflow consultation</h1>
-    <p class="lede">Call, text, or email with a couple of times that work for you. In person, by phone, or video, whichever you prefer.</p>
-    <div class="actions">
-      <a class="btn primary" href="tel:+19495298692">Call (949) 529-8692</a>
-      <a class="btn secondary" href="sms:+19495298692">Text me</a>
-      <a class="btn secondary" href="mailto:b.kunbargi@gmail.com?subject=Free%2020-minute%20workflow%20consultation&amp;body=Hi%20Bisher%2C%0A%0AI%27d%20like%20to%20book%20the%20free%2020-minute%20workflow%20consultation.%0A%0ABusiness%3A%20%0AA%20process%20I%27d%20like%20to%20talk%20about%3A%20%0ATimes%20that%20work%20for%20me%3A%20%0A">Email</a>
+    <div class="person">
+      <div>You’ll be talking with <b>Bisher Kunbargi</b>, the engineer who would do the work. If I stopped by your business with a flyer, that was me.</div>
+    </div>
+    <p class="lede">Call or text with a time that works for you, and I’ll confirm it. In person at your business, by phone, or video.</p>
+    <div class="rows" style="margin-top:22px">
+      <a class="row" href="tel:+19495298692"><span>Call</span><b>(949) 529-8692</b></a>
+      <a class="row" href="sms:+19495298692"><span>Text</span><b>(949) 529-8692</b></a>
+      <a class="row" href="mailto:b.kunbargi@gmail.com?subject=Free%2020-minute%20workflow%20consultation&amp;body=Hi%20Bisher%2C%0A%0AI%27d%20like%20to%20book%20the%20free%2020-minute%20workflow%20consultation.%0A%0ABusiness%3A%20%0AA%20process%20I%27d%20like%20to%20talk%20about%3A%20%0ATimes%20that%20work%20for%20me%3A%20%0A"><span>Email</span><b>b.kunbargi@gmail.com</b></a>
+      <a class="row" href="/bisher-kunbargi.vcf"><span>Save</span><b>Add me to contacts</b></a>
     </div>
   </section>
 
   <section>
-    <div class="label">What to expect</div>
-    <ul class="checks">
-      <li>Pick one or two processes that eat up your team’s time</li>
-      <li>We walk through how they work today</li>
-      <li>I point out where automation could realistically help</li>
-      <li>And where it isn’t worth it</li>
-    </ul>
-    <p style="margin-top:22px"><a href="/">More about what I do</a></p>
+    <h2>What happens on the call</h2>
+    <ol class="steps plain">
+      <li><p>You pick one or two processes that eat up your team’s time.</p></li>
+      <li><p>We walk through how they work today.</p></li>
+      <li><p>I point out where automation could realistically help, and where it isn’t worth it.</p></li>
+      <li><p>If a first project makes sense, I follow up with a fixed-price proposal. If not, you’ve lost nothing but 20 minutes.</p></li>
+    </ol>
+    <p style="margin-top:26px"><a href="/">More about what I do</a></p>
   </section>
 </main>
 
 <footer class="site"><div class="wrap">
-  <span><a href="mailto:b.kunbargi@gmail.com">b.kunbargi@gmail.com</a> · <a href="tel:+19495298692">(949) 529-8692</a></span>
+  <span>Mission Viejo, California · Serving Orange County</span>
   <span>© 2026 Bisher Kunbargi</span>
 </div></footer>
 </body>
